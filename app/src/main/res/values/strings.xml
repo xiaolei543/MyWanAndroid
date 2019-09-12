@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyWanAndroid</string>
+
+    <string name="dialog_positive">Confirm</string>
+    <string name="dialog_negative">Cancel</string>
+    <string name="loading">Loading……</string>
+    <string name="load_failed">Load failed. Please click me again</string>
+    <string name="press_again">Press again to exit</string>
+
+
+    <string name="empty_network_error">Network error, Click Retry</string>
+    <string name="empty_no_data">There is no data, Click Retry</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:background="#CD03A9F4"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="60dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/personal_head"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/logo"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp"/>
+
+            <TextView
+                android:id="@+id/personal_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="去登陆"
+                android:textSize="18dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/personal_about"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_about"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="关于作者"
+            android:textSize="18dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_back_right"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/personal_Setting"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_setting"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="系统设置"
+            android:textSize="18dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_back_right"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="30dp"/>
+    </LinearLayout>
+
+</LinearLayout>

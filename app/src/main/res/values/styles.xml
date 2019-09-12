@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppBaseTheme" parent="AppThemeLight">
+    </style>
+
+    <!--解决应用初始化白屏问题-->
+    <style name="GuideTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/start</item>
+    </style>
+
+    <style name="CompatAppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="TextViewTitle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/txt_black</item>
+    </style>
+
+    <style name="TextViewSubhead" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/txt_black</item>
+    </style>
+
+    <style name="bg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/bg</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="net_error_img">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="loading_img">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="empty_img">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+
+    <style name="AppTheme.ToolbarPopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="overlapAnchor">false</item>
+    </style>
+
+
+    <style name="BottomDialog" parent="@style/Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="BottomDialog.Animation" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/bottom_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_dialog_out</item>
+    </style>
+
+</resources>
