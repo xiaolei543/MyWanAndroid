@@ -27,7 +27,7 @@ public class NetworkImageHolderView implements Holder<BannerBean> {
 
     @Override
     public void UpdateUI(Context context, int position, BannerBean data) {
-        imageView.setImageResource(R.drawable.about);
-        Glide.with(context).load(data.getImagePath()).placeholder(R.drawable.about).into(imageView);
+        imageView.setImageResource(R.mipmap.logo);
+        Glide.with(context).load(data.getImagePath()).placeholder(R.mipmap.logo).into(imageView);
     }
 }

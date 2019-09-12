@@ -40,7 +40,7 @@ public class ProjectFragmentListAdapter extends BaseQuickAdapter<ProjectListBean
         helper.setText(R.id.item_tv_desc,item.getDesc()+"");
 
 
-        Glide.with(mContext).load(item.getEnvelopePic()).placeholder(R.mipmap.ic_back).into((ImageView) helper.getView(R.id.item_iv_img));
+        Glide.with(mContext).load(item.getEnvelopePic()).placeholder(R.mipmap.logo).into((ImageView) helper.getView(R.id.item_iv_img));
 
     }
 
