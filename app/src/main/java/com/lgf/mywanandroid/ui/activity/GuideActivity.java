@@ -42,6 +42,7 @@ public class GuideActivity extends BaseCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_guide);
+        //
     }
 
     @Override
